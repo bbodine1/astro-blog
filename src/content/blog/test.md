@@ -2,7 +2,7 @@
 title: 'Test'
 description: 'This is a test description'
 pubDate: 'Jul 08 2023'
-heroImage: '/blog-placeholder-3.jpg'
+heroImage: '/assets/blog-placeholder-3.jpg'
 ---
 
 ## This is some stuff
