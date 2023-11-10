@@ -1,8 +1,8 @@
 ---
-title: Test
-description: This is a test description
-pubDate: Jul 08 2023
-heroImage: /assets/uploads/img_7903_original.jpg
+title: 'Test'
+description: 'This is a test description'
+pubDate: 'Jul 08 2023'
+heroImage: '/assets/blog-placeholder-3.jpg'
 ---
 
 ## This is some stuff
