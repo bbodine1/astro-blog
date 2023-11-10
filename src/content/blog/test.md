@@ -1,20 +1,16 @@
 ---
-layout: ../../layouts/BlogPost.astro
-title: Test
-description: This is a test description
-date: '2023-11-09T17:56:12-06:00'
-heroImage: /assets/img_7205.jpeg
+title: 'Test'
+description: 'This is a test description'
+pubDate: 'Jul 08 2023'
+heroImage: '/blog-placeholder-3.jpg'
 ---
+
 ## This is some stuff
+
+Just some regular ole stuff
 
 ```typescript
 function roundDownToTenthAlt(num: number) {
-
-  return Math.round((num * 1000) / 10);
-
+	return Math.round((num * 1000) / 10)
 }
-```
-
-```
-
 ```
