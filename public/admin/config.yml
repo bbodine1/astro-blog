@@ -6,8 +6,8 @@ publish_mode: editorial_workflow
 
 # media_folder: 'src/assets' # Media files will be stored in the repo under static/images/uploads
 # public_folder: '/assets' # The src attribute for uploaded media will begin with /images/uploads
-media_folder: 'src/assets/uploads'
-public_folder: '/assets/uploads'
+media_folder: 'src/assets/uploads1'
+public_folder: '/assets/uploads2'
 
 display_url: https://astro-notes.netlify.app
 
