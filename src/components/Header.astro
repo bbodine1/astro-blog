@@ -1,6 +1,6 @@
 ---
 import HeaderLink from './HeaderLink.astro'
-import { SITE_TITLE } from '../consts'
+import { SITE_TITLE, SOCIAL_URLS } from '../consts'
 ---
 
 <header>
@@ -13,7 +13,7 @@ import { SITE_TITLE } from '../consts'
 		</div>
 		<div class="social-links">
 			<a
-				href="https://x.com/brad_bodine"
+				href={SOCIAL_URLS.x}
 				target="_blank"
 			>
 				<span class="sr-only">Follow Brad on Twitter</span>
@@ -30,10 +30,10 @@ import { SITE_TITLE } from '../consts'
 				</svg>
 			</a>
 			<a
-				href="https://github.com/withastro/astro"
+				href={SOCIAL_URLS.github}
 				target="_blank"
 			>
-				<span class="sr-only">Go to Astro's GitHub repo</span>
+				<span class="sr-only">Go to Brad's GitHub profile</span>
 				<svg
 					viewBox="0 0 16 16"
 					aria-hidden="true"

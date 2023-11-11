@@ -1,4 +1,5 @@
 ---
+import { SOCIAL_URLS } from '../consts'
 const today = new Date()
 ---
 
@@ -6,7 +7,7 @@ const today = new Date()
 	&copy; {today.getFullYear()} Brad Bodine. All rights reserved.
 	<div class="social-links">
 		<a
-			href="https://twitter.com/astrodotbuild"
+			href={SOCIAL_URLS.x}
 			target="_blank"
 		>
 			<span class="sr-only">Follow Brad on Twitter</span>
@@ -23,7 +24,7 @@ const today = new Date()
 			</svg>
 		</a>
 		<a
-			href="https://github.com/bbodine1"
+			href={SOCIAL_URLS.github}
 			target="_blank"
 		>
 			<span class="sr-only">Go to Brad's GitHub profile</span>
