@@ -3,6 +3,8 @@ import BaseHead from '../components/BaseHead.astro'
 import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts'
+
+const heroImage = '/assets/static/blog-header.png'
 ---
 
 <!doctype html>
@@ -20,45 +22,44 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts'
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			<h1>Welcome to my personal blog website!</h1>
+			<div class="hero-image">
+				{
+					heroImage && (
+						<img
+							width={1020}
+							height={510}
+							src={heroImage}
+							alt="Hero image with Nx and Angular logos"
+						/>
+					)
+				}
+			</div>
+
+			<h1>Welcome to my personal website!</h1>
 
 			<p>
-				As a seasoned web developer with a passion for creating exceptional online experiences, I am thrilled to share
-				my thoughts, expertise, and insights with you through this platform. Here, you will find a collection of
-				articles, tutorials, and personal stories that revolve around my journey in the web development world.
+				Here, I document and share my exploration of the latest technologies and techniques in frontend web development.
+				As a seasoned developer, I specialize in creating robust user experiences using <a href="https://angular.dev"
+					>Angular</a
+				>, Typescript, Git, GitHub, and <a href="https://nx.dev/">Nx</a>.
 			</p>
 
 			<p>
-				With years of experience in the industry, I have had the privilege of working on numerous projects for a diverse
-				range of clients. From small businesses to multinational corporations, I have developed websites, web
-				applications, and intricate software solutions that cater to specific needs and deliver exceptional results.
+				With Angular, I build dynamic and interactive interfaces that leave a lasting impact. Git and GitHub help me
+				manage code collaboration and version control, ensuring an organized and efficient workflow. Nx enhances my
+				development process with its powerful code generation and modular architecture.
 			</p>
 
 			<p>
-				My commitment to precision and efficiency has been a driving force throughout my career. I constantly strive to
-				stay on the cutting edge of technology, keeping up with the latest trends, frameworks, and tools in the
-				ever-evolving web development landscape. By leveraging my expertise and staying ahead of the curve, I am able to
-				create robust, scalable, and secure solutions that meet the demands of modern businesses.
+				By leveraging these technologies, I deliver exceptional results and stay at the forefront of the industry. Join
+				me on this journey as we explore the possibilities and potential of frontend web development together.
 			</p>
 
 			<p>
-				However, web development is more than just lines of code and frameworks. It is an art form that combines
-				creativity, problem-solving, and constant learning. I believe in the power of collaboration and fostering a
-				positive and inclusive web development community. Through this blog, I hope to inspire and empower aspiring
-				developers, share insights and best practices, and engage in meaningful discussions that push the boundaries of
-				what is possible.
+				If I can ever help you understand any of the topics I cover, please don't hesitate to reach out to me on <a
+					href="https://x.com/brad_bodine">X (Twitter)</a
+				>
 			</p>
-
-			<p>
-				So whether you are a fellow developer looking to expand your knowledge, a business owner seeking advice on
-				optimizing your online presence, or simply an enthusiast exploring the world of web development, I invite you to
-				join me on this journey. Together, let's explore the limitless possibilities of the web and uncover the beauty
-				of code.
-			</p>
-
-			<p>Thank you for visiting, and I look forward to sharing my passion and expertise with you.</p>
-
-			<p>Best regards,</p>
 		</main>
 		<Footer />
 
