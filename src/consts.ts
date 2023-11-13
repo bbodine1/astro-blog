@@ -6,4 +6,5 @@ export const SITE_DESCRIPTION = 'Welcome to my website!'
 export const SOCIAL_URLS = {
 	github: 'https://github.com/bbodine1',
 	x: 'https://x.com/brad_bodine',
+	linkedin: 'https://www.linkedin.com/in/brad-bodine',
 }
