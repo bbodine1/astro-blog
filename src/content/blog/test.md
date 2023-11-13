@@ -2,7 +2,7 @@
 title: Test
 description: This is a test description
 pubDate: Jul 08 2023
-heroImage: /assets/mbqifklvowm-full.jpg
+heroImage: /assets/logo-angular.png
 ---
 
 ## This is some stuff
