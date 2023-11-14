@@ -60,6 +60,8 @@ console.log(parseCoordinate(10, 20));
 console.log(parseCoordinate("x:12,y:22"));
 ```
 
+---
+
 ## Compiled Javascript
 
 ```javascript
