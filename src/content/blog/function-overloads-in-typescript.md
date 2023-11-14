@@ -2,7 +2,7 @@
 title: Function Overloads in Typescript
 description: This is an example of Function Overloading in Typescript
 pubDate: '2023-11-13T18:44:29-06:00'
-heroImage: /assets/blog-placeholder-2.jpg
+heroImage: /assets/typescript.png
 ---
 ## Typescript
 
